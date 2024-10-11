@@ -1,0 +1,14 @@
+research_task:
+  description: >
+    Conduct a thorough research about AI/ML advancements in the InsurTech space across the websites provided.
+    
+    - Insurtech Insights (https://www.insurtechinsights.com/news-insights/artificial-intelligence/) & make sure research is done by the Insurtech Insights Reporter.
+    - InsurTech News (https://insurtechnews.com/) & make sure research is done by the InsurTech News reporter.
+    - InsurTech Digital (https://insurtechdigital.com/) & make sure research is done by the InsurTech Digital.
+    
+    Make sure you find any interesting and relevant information given the current date is 10-11-2024.
+    You will be presenting your findings to the CTO of a prominent InsurTech company that is looking to expand its AI/ML capabilities.
+  expected_output: >
+    A list with 5 bullet points representing the most important AI/ML advancements that have recently taken place
+    in the InsurTech space. Include detailed sources and citations for each bulletpoint in your report so that the information
+    can be verified. Include links to the sources in the final output.

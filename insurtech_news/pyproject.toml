@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "insurtech_news"
+version = "0.1.0"
+description = "insurtech_news using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.63.6,<1.0.0" }
+
+
+[tool.poetry.scripts]
+insurtech_news = "insurtech_news.main:run"
+run_crew = "insurtech_news.main:run"
+train = "insurtech_news.main:train"
+replay = "insurtech_news.main:replay"
+test = "insurtech_news.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
